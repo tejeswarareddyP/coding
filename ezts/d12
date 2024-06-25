@@ -1,0 +1,10 @@
+ce,co=0,0
+n=1234
+while n>0:
+  r=n%10
+  n=n//10
+  if r%2==0:
+    ce+=1
+  else:
+    co+=1 
+print(co,ce)

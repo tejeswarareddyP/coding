@@ -1,0 +1,16 @@
+django py:
+pip install pipenv
+cd C:\python\eztl\django project
+python3 -m pipenv install django
+python3 -m pipenv shell
+cd myapp
+python manage.py startapp myapp
+python manage.py runserver
+
+
+
+open folder in vscode
+
+/from myproject settings 
+include installed apps with your own app name
+include templates: ('DIRS':['template'])
